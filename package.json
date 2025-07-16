@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "echo '🚀 Desplegando BA Guitars - ¡Preparate para rockear! 🎸🔥' && vite",
+    "prebuild": "npm install --legacy-peer-deps",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
